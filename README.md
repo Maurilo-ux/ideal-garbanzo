@@ -11,7 +11,8 @@ project/
 │   ├── controllers/    # Lógica de cada rota
 │   ├── models/         # Modelos de banco de dados
 │   ├── Config/         # Configurações
-│   └── index.js        # Configuração principal do app
+│   ├──  index.js        # Configuração principal do app
+|   |    or 
 │   └── app.js          # Configuração principal do app
 |
 ├── tests/              # Testes
