@@ -9,8 +9,14 @@ router.get('/sobre', (req, res) => {
   res.send('Esta é a página sobre nós.');
 });
 
-router.post('/login', (req, res) => {
-  res.send('Rota de login acessada com sucesso!');
-});
+router.get("/gaia",(req,res) => {
+    res.send("tres tigres tristes")
+})
+
+// A rota login está com erro que não é encontrado
+
+// router.post('/login', (req, res) => {
+//   res.send('Rota de login acessada com sucesso!');
+// });
 
 module.exports = router;
