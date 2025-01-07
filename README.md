@@ -8,13 +8,13 @@ A ideia é criar um site simples, criar uma site que tenha o CRUD em suas postag
 project/
 ├── src/
 │   ├── routes/         # Rotas da API
-│   ├── middlewares/    # Middlewares
 │   ├── controllers/    # Lógica de cada rota
 │   ├── models/         # Modelos de banco de dados
-│   ├── services/       # Funções específicas
-│   ├── utils/          # Helpers
+│   ├── Config/         # Configurações
+│   ├──  index.js        # Configuração principal do app
+|   |    or 
 │   └── app.js          # Configuração principal do app
-│
+|
 ├── tests/              # Testes
 ├── .env
 ├── package.json
