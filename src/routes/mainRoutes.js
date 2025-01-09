@@ -9,7 +9,11 @@ router.get('/sobre', (req, res) => {
   res.send('Esta é a página sobre nós.');
 });
 
-router.get("/gaia",(req,res) => {
+router.get("/contato",(req,res) => {
+  res.send("tres tigres tristes")
+})
+
+router.get("/sos",(req,res) => {
     res.send("tres tigres tristes")
 })
 
